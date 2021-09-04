@@ -10,7 +10,7 @@
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:unit": "yarn test -c jest.unit.config.js --watch",
     "release": "semantic-release",
-    "postversion": "cd .. && $PWD && ls"
+    "postversion": "cd ../ && yarn scripts ./scripts/release/postVersionBump.js"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
