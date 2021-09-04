@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
-    "test:unit": "yarn test -- -c jest.unit.config.js --watch",
+    "test:unit": "yarn test -c jest.unit.config.js --watch",
     "release": "semantic-release",
     "postversion": "cd ../ && yarn scripts ./scripts/release/bump_version.js"
   },
