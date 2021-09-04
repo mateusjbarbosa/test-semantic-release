@@ -27,5 +27,20 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/mateusjbarbosa/test-semantic-release.git"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github",
+      "@semantic-release/changelog",
+      "@semantic-release/git",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ]
+    ]
   }
 }
