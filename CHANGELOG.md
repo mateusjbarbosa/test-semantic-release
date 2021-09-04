@@ -19,6 +19,13 @@
 
 * ensure get person email ([8789510](https://github.com/mateusjbarbosa/test-semantic-release/commit/87895104f2303e35c74a8a2a763212085af00cc7))
 
+# [1.2.0](https://github.com/mateusjbarbosa/test-semantic-release/compare/v1.1.0...v1.2.0) (2021-09-04)
+
+
+### Features
+
+* ensure get person email ([8789510](https://github.com/mateusjbarbosa/test-semantic-release/commit/87895104f2303e35c74a8a2a763212085af00cc7))
+
 # [1.1.0](https://github.com/mateusjbarbosa/test-semantic-release/compare/v1.0.0...v1.1.0) (2021-09-04)
 
 
