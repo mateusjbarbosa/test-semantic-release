@@ -1,5 +1,4 @@
 const exec = require('child_process').exec
-const pkg = require('../../package.json')
 const fs = require('fs')
 const path = require('path')
 
