@@ -2,6 +2,11 @@
   "name": "test-semantic-release",
   "version": "0.1.0",
   "main": "index.js",
-  "scripts": {},
-  "license": "ISC"
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  }
 }
