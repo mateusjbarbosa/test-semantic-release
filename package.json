@@ -1,6 +1,6 @@
 {
   "name": "test-semantic-release",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "main": "dist/index.js",
   "author": "Mateus José Barbosa <dev.mateusbarbosa@gmail.com>",
