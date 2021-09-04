@@ -1,0 +1,25 @@
+name: Release
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.17.6
+      - name: Install dependencies
+        run: yarn install
+      - name: Build Lib
+        run: yarn build
+      - name: release
+        env:
+          GH_TOKEN: ${{ secrets.DEPLOY_DEMO }}
+        run: npx semantic-release
