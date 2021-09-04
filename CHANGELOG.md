@@ -5,6 +5,13 @@
 
 * ensure get person age ([24d3d55](https://github.com/mateusjbarbosa/test-semantic-release/commit/24d3d55c65ae4522a366136398b3cf65889d8c7c))
 
+# [1.1.0](https://github.com/mateusjbarbosa/test-semantic-release/compare/v1.0.0...v1.1.0) (2021-09-04)
+
+
+### Features
+
+* ensure get person age ([24d3d55](https://github.com/mateusjbarbosa/test-semantic-release/commit/24d3d55c65ae4522a366136398b3cf65889d8c7c))
+
 # 1.0.0 (2021-09-04)
 
 
