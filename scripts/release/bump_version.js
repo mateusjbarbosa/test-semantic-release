@@ -13,15 +13,18 @@ exec('git describe --tags',
     const tag = stdout.replace('v', '')
     const version = tag.replace('\n', '')
 
-    pkg.version = version
+    console.log(`$PWD`)
+    console.log(version)
 
-    const pkgPath = path.join(__dirname, '..', '..', 'package.json')
+    // pkg.version = version
 
-    fs.writeFileSync(
-      pkgPath,
-      `${JSON.stringify({
-        ...pkg,
-      }, null, 2)}\n`
-    )
+    // const pkgPath = path.join(__dirname, '..', '..', 'package.json')
+
+    // fs.writeFileSync(
+    //   pkgPath,
+    //   `${JSON.stringify({
+    //     ...pkg,
+    //   }, null, 2)}\n`
+    // )
   }
 )
